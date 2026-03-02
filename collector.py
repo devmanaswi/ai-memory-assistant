@@ -1,5 +1,4 @@
-# AI Memory Assistant Project
-# # Open conversation file in append mode
+
 
 # Start loop
 
