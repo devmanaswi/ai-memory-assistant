@@ -1,0 +1,132 @@
+[
+    {
+        "timestamp": "2026-03-03 05:09:57",
+        "role": "USER",
+        "message": "sfbsibnsuibgusbng"
+    },
+    {
+        "timestamp": "2026-03-03 05:09:59",
+        "role": "USER",
+        "message": "ghusdbhusrfnrgbujsr"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:00",
+        "role": "USER",
+        "message": "srghsruohoruh"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "\ud83d\udd25 Final Summary (What this program does)"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": ""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "\u2714 Opens a file called conversation.txt"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "\u2714 Writes a new session header with current time"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "\u2714 Takes user input continuously"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "\u2714 Saves each message with timestamp"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "\u2714 Stops when user types \"done\""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": ""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "\ud83d\udca1 Example Output in File"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "---------- NEW SESSION 2026-03-03 21:40:10 ----------"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": ""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "2026-03-03 21:40:15 USER: Hello"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "2026-03-03 21:40:20 USER: How are you?"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": ""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "If you want, I can now:"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": ""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "Explain how to modify this to save bot replies too \ud83e\udd16"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": ""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "Or draw a flowchart"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": ""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": "Or convert this into a mini chat app"
+    },
+    {
+        "timestamp": "2026-03-03 05:10:11",
+        "role": "USER",
+        "message": ""
+    },
+    {
+        "timestamp": "2026-03-03 05:10:15",
+        "role": "USER",
+        "message": "Tell me what level explanation you want next \ud83d\ude04"
+    }
+]

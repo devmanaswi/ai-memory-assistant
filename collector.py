@@ -10,28 +10,46 @@
 # Else -> write input to file
 
 # Close file
+import json
 from datetime import datetime
+import os
 
-def start_session():
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    return f"\n---------- NEW SESSION {timestamp} ----------\n"
+FILE_NAME = "memory.json"
 
-def save_message(file, role, message):
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    file.write(f"{timestamp} {role}: {message}\n")
+def load_memory():
+    if not os.path.exists(FILE_NAME):
+        return []
+    
+    with open(FILE_NAME, "r", encoding="utf-8") as f:
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return []
+
+def save_memory(data):
+    with open(FILE_NAME, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4)
 
 def main():
-    with open("conversation.txt", "a", encoding="utf-8") as f:
-        f.write(start_session())
+    memory = load_memory()
 
-        while True:
-            user_input = input("You: ")
+    print("Type 'done' to end session.\n")
 
-            if user_input.strip().lower() == "done":
-                print("Session ended.")
-                break
+    while True:
+        user_input = input("You: ")
 
-            save_message(f, "USER", user_input)
+        if user_input.strip().lower() == "done":
+            print("Session saved.")
+            break
+
+        entry = {
+            "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            "role": "USER",
+            "message": user_input
+        }
+
+        memory.append(entry)
+        save_memory(memory)
 
 if __name__ == "__main__":
     main()
